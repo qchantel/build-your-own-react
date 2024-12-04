@@ -36,6 +36,8 @@
             }
         }
 
+
+
         function render(element, container) {
             const dom =
                 element.type == "TEXT_ELEMENT"
@@ -64,8 +66,9 @@
         /** @jsx Didact.createElement */
         const element = (
             <div id="foo">
-                <a>bar</a>
+                <a>Hello world</a>
                 <b />
+                <h1>This is a title</h1>
             </div>
         )
         const container = document.getElementById("root")
